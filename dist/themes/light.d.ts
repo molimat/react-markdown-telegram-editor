@@ -1,0 +1,24 @@
+export declare const lightTheme: {
+    buttonBackgroundColor: string;
+    buttonBorderColor: string;
+    buttonColor: string;
+    buttonBackgroundColorHover: string;
+    switchButtonBackgroundColor: string;
+    switchButtonBorderColor: string;
+    switchButtonColorHover: string;
+    switchButtonBackgroundColorHover: string;
+    switchButtonColorView: string;
+    switchButtonColorActiveView: string;
+    switchButtonBackgroundColorActiveView: string;
+    switchButtonBorderColorActiveView: string;
+    textColor: string;
+    contentAreaBackgroundColor: string;
+    textAreaBorderColor: string;
+    previewAreaBorderColor: string;
+    codeBlockBackgroundColor: string;
+    linkColor: string;
+    quoteAdornmentColor: string;
+    tableBorderColor: string;
+    textAreaSelectionBackgroundColor: string;
+    textAreaSelectionColor: string;
+};

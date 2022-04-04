@@ -38,14 +38,14 @@ var Yamde = function (_a) {
     var _b = react_1.useState(false), isPreviewMode = _b[0], setisPreviewMode = _b[1];
     var textEditor = react_1.useRef(null);
     var classes = Yamde_styles_1.useStyles();
-    var htmlPreview = converter.makeHtml(value);
+    var htmlPreview = converter.makeHtml(value.replace("__", "*"));
     var handleChange = function (e) {
         let value = e.target.value
         if(e.target.value === "*") {
-            value = "\\*"
+            value = "(((*)))"
         }
         if(e.target.value === "_") {
-            value = "\\_"
+            value = "(((_)))"
         }
         handler(value);
     };
